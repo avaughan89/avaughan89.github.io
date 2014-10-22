@@ -1,9 +1,16 @@
-h1 {
+nav {
   text-align: center;
 }
-img {
+img.hshot {
   text-align: left;
 }
-p {
-  vertical-align: center;
+p.contact {
+  text-align: center;
+}
+img.topbar {
+  text-align: center;
+  background-color: black;
+}
+div.cloudtop {
+  background-color: black;
 }

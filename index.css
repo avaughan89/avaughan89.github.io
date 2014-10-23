@@ -8,17 +8,22 @@
 
 ul {
   padding: 60px;
+  text-align: center;
 }
 
-li {
+.nav li {
   padding: 10px;
   display: inline-block;
 }
-.nav a:link {
+.contact li {
+  padding: 10px;
+  display: inline-block;
+}
+ a:link {
   color: white;
 }
 
-.nav a:visited {
+a:visited {
   color: white;
 }
 
@@ -29,4 +34,36 @@ li {
 h2 {
   text-align: center;
   font-size: 200%;
+}
+.bpost li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.bpost {
+  text-align: center;
+  margin: auto;
+  border: dashed;
+  padding: 0px 240px 0px;
+}
+
+.btitle {
+  font-size: 200%;
+  padding: 20px;
+}
+.row1 li {
+  padding: 30px;
+  list-style-type: none;
+  display: inline-block;
+  margin: auto;
+  background-color: black;
+
+}
+.row2 li {
+  padding: 30px;
+  list-style-type: none;
+  display: inline-block;
+  margin: auto;
+  background-color: black;
+
 }

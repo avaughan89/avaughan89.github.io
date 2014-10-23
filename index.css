@@ -1,0 +1,32 @@
+.nav {
+  text-align: center;
+  background-image: url(imgs/rsz_coverphoto.png);
+  background-repeat: no-repeat;
+  background-color: black;
+  font-size: 130%;
+}
+
+ul {
+  padding: 60px;
+}
+
+li {
+  padding: 10px;
+  display: inline-block;
+}
+.nav a:link {
+  color: white;
+}
+
+.nav a:visited {
+  color: white;
+}
+
+.icons {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 200%;
+}

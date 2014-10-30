@@ -65,3 +65,9 @@ h2 {
   display: inline-block;
   margin: auto;
   background-color: black;
+}
+
+.centerhome img {
+  margin: auto;
+  text-align: center;
+}

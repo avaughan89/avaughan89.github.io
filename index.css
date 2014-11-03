@@ -66,6 +66,13 @@ h2 {
   margin: auto;
   background-color: black;
 }
+.row3 li {
+  padding: 30px;
+  list-style-type: none;
+  display: inline-block;
+  margin: auto;
+  background-color: black;
+}
 
 .centerhome img {
   margin: auto;

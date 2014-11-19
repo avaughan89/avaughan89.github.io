@@ -51,7 +51,7 @@ h2 {
   font-size: 200%;
   padding: 20px;
 }
-.row1 li {
+.brow li {
   padding: 30px;
   list-style-type: none;
   display: inline-block;
@@ -59,20 +59,7 @@ h2 {
   background-color: black;
 
 }
-.row2 li {
-  padding: 30px;
-  list-style-type: none;
-  display: inline-block;
-  margin: auto;
-  background-color: black;
-}
-.row3 li {
-  padding: 30px;
-  list-style-type: none;
-  display: inline-block;
-  margin: auto;
-  background-color: black;
-}
+
 
 .centerhome img {
   margin: auto;

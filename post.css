@@ -16,7 +16,7 @@
 
 .jumbotron {
   background-image:url('http://oddstuffmagazine.com/wp-content/uploads/2012/07/cave-18.jpg');
-  height: 550px;
+  height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -40,8 +40,12 @@
 
 .learn-more {
   background-color: #f7f7f7;
-   margin-top: 30px;
+  margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.learn-more .container {
+  margin-right: 40px;
 }
 
 .learn-more h3 {
@@ -54,22 +58,33 @@
   color: #00b0ff;
 }
 
-.learn-more .container {
-  margin-right: 40px;
-}
-
-.neighborhood-guides {
+.blog-holder {
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
 
+
 }
 
-.neighborhood-guides h2 {
+.blog-holder h2 {
     color: #393c3d;
     font-size:24px;
 }
 
-.neighborhood-guides p {
+.blog-holder p {
     margin-bottom: 13px;
     font-size:15px;
+}
+
+.blog-holder li {
+  display: block;
+}
+
+.blog-holder .container {
+  margin-right: 40px;
+}
+
+.blog-holder .container .row {
+  margin-left: 5px;
+  padding: 12px;
+  padding-right: 150px;
 }

@@ -88,3 +88,13 @@
   padding: 12px;
   padding-right: 150px;
 }
+
+.btitle {
+  text-align: center;
+  font-size: 40px;
+}
+
+.stitle {
+  text-align: center;
+  font-size: 25px;
+}

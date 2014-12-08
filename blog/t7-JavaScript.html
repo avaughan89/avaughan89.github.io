@@ -1,29 +1,43 @@
-<!Doctype html>
+<!DOCTYPE html>
+<html>
   <head>
-    <link rel="stylesheet" type="text/css" href="../index.css">
-    <title>
-      Andrew Vaughan's Page
-    </title>
-    <body>
-      <ul class ="nav">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="../blogindex.html">Blog</a></li>
-      </ul>
-      <div class="faceborder">
-          <div class="headshot">
-            <a href="index.html"><img src ="../imgs/heads.png"></a>
-          </div>
-          <div class ="title">
-            <h2 class ="webtit">
-               Lost in Code
-            </h2>
-          </div>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../post.css">
+    <title>Andrew Vaughan</title>
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="../blogindex.html">Blog</a></li>
+          <li><a href="../portfolio.html">Portfolio</a></li>
+          <li><a href="../helpful.html">Helpful Links</a></li>
+        </ul>
       </div>
-      <div class= "bpost">
-            <ul>
+    </div>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>ANDREW VAUGHAN</h1>
+        <p>Dream. Think. Create.</p>
+      </div>
+    </div>
+
+<div class="blog-holder">
+    <div class="container">
+    <div class ="row">
+        <div class="col-md-2">
+      <p></p>
+        </div>
+      <div class="col-md-8">
+      <ul>
                 <li class ="btitle">Round and Round We Go</li>
-                <LI>November 22 2014</LI>
+                <LI class ="stitle">November 22 2014</LI>
             </ul>
             <p>
 
@@ -39,9 +53,9 @@ Instead of writing:
 puts "Hello world, this is number 1"<br>
 puts "Hello world, this is number 2"<br>
 puts "Hello world, this is number 3"<br>
-….<br>
-….<br>
-….<br>
+...<br>
+...<br>
+...<br>
 <br><br>
 To get all the way up to 100, we could write a simple for loop to achieve the same goal.
 <br><br>
@@ -50,32 +64,47 @@ for current_iteration_number in 1..100 do<br>
 end<br>
 <br><br>
 <br><br>
-Here we see that we are taking a an input “current_iteration_number” and setting a range “1..100” and telling it or “do” the block of code : “puts “Hello world, this is number “.  And to insure that it is selecting our current place in our range, we select it with #{current_iteration_number}.
+Here we see that we are taking a an input "current_iteration_number" and setting a range "1..100" and telling it or "do" the block of code : "puts "Hello world, this is number ".  And to insure that it is selecting our current place in our range, we select it with #{current_iteration_number}.
 <br><br>
 For Javascript, we can achieve the same goal by writing out a “loop” that will follow the same principles.
 <br><br>
 JAVASCRIPT
 <br><br>
 for (current_iteration_number = 1; current_iteration_number <=100; current_iteration_number++) {<br>
-  console.log(“Hello world, this is number “ + current_iteration_number)<br>
+  console.log("Hello world, this is number "" + current_iteration_number)<br>
 };<br>
 <br><br>
-Here we can see that we are following the same logic but with some different syntax.  We are setting the value of current_iteration_number to 1, telling the code our range is “until the number is less than or equal to 100” and telling it to loop through this method and increase current_iteration_number by 1 each time.
+Here we can see that we are following the same logic but with some different syntax.  We are setting the value of current_iteration_number to 1, telling the code our range is "until the number is less than or equal to 100" and telling it to loop through this method and increase current_iteration_number by 1 each time.
 <br><br>
 Understanding that the logic  remains mostly the same but with some different syntax makes this transition much more simple.
 <br><br>
 
             </p>
       </div>
-      <div class= "contact">
-        <ul class= "icons">
-          <li><a href="mailto:asdvaughan@gmail.com"><img src="../imgs/mail22.png"></a></li>
-          <li><a href="https://www.facebook.com/andrew.vaughan.58"><img src="../imgs/facebok.png"></a></li>
-          <li><a href="https://twitter.com/asdvaughan"><img src="../imgs/twitter12.png"></a></li>
-          <li><a href="https://github.com/avaughan89"><img src="../imgs/github7.png"></a></li>
-          <li><a href="https://www.linkedin.com/pub/andrew-vaughan-cmca/45/7a8/16b"><img src="../imgs/linked2.png"></a></li>
-        </ul>
+      <div class="col-md-2">
+      <p></p>
       </div>
+      </div>
+    </div>
+  </div>
 
-    </body>
+    <div class="learn-more">
+      <div class="container">
+        <div class ="row">
+          <div class="col-md-3">
+            <a href="mailto:asdvaughan@gmail.com"><img src="../imgs/mail22.png"></a>
+          </div>
+          <div class="col-md-3">
+          <a href="https://twitter.com/asdvaughan"><img src="../imgs/twitter12.png"></a>
+          </div>
+          <div class="col-md-3">
+          <a href="https://www.linkedin.com/pub/andrew-vaughan-cmca/45/7a8/16b"><img src="../imgs/linked2.png"></a>
+          </div>
+          <div class="col-md-3">
+          <a href="https://github.com/avaughan89"><img src="../imgs/github7.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

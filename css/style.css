@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -31,7 +31,7 @@ a {
   text-decoration: none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -49,11 +49,23 @@ Modules - reusable parts of our design
   clear: both;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
+
+@media only screen and (min-width: 300px) {
+  .headshot {
+  position: absolute;
+  top: 60%;
+  bottom: auto;
+  left: 33%;
+  right: 50%;
+  border-radius: 150px;
+  }
+}
+
 .cd-header {
   position: fixed;
   top: 0;
@@ -202,20 +214,28 @@ Main components
   color: white;
 }
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("../img/cd-background-1.jpg");
+  background-image: url("../img/lacover.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
   background-image: url("../img/cd-background-2.jpg");
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("../img/cd-background-3.jpg");
+  background-image: url("../img/beaches.jpg");
 }
 .cd-fixed-bg.cd-bg-4 {
-  background-image: url("../img/cd-background-4.jpg");
+  background-image: url("../img/aurora.jpg");
 }
 @media only screen and (min-width: 768px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
+  }
+  .headshot {
+  position: absolute;
+  top: 60%;
+  bottom: auto;
+  left: 40%;
+  right: 50%;
+  border-radius: 150px;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -223,8 +243,16 @@ Main components
     background-attachment: fixed;
   }
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
-    font-size: 48px;
+    font-size: 6em;
     font-weight: 300;
+  }
+  .headshot {
+  position: absolute;
+  top: 60%;
+  bottom: auto;
+  left: 46%;
+  right: 50%;
+  border-radius: 150px;
   }
 }
 
@@ -257,3 +285,4 @@ Main components
     font-weight: 300;
   }
 }
+

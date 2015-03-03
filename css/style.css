@@ -39,7 +39,7 @@ Modules - reusable parts of our design
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
-  max-width: 768px;
+  max-width: 720px;
   margin: 0 auto;
 }
 .cd-container::after {
@@ -88,7 +88,7 @@ Main components
 .cd-header #cd-logo img {
   display: block;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 720px) {
   .cd-header {
     height: 70px;
   }
@@ -133,7 +133,7 @@ Main components
   border-top: 1px solid #453c3d;
   color: #8e7d7f;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 720px) {
   .cd-main-nav {
     width: auto;
     height: auto;
@@ -225,7 +225,7 @@ Main components
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../img/aurora.jpg");
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 720px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
   }
@@ -237,6 +237,10 @@ Main components
   right: 50%;
   border-radius: 150px;
   }
+    #namestar {
+    font-size: 4em;
+  }
+
 }
 @media only screen and (min-width: 1170px) {
   .cd-fixed-bg {
@@ -250,9 +254,12 @@ Main components
   position: absolute;
   top: 60%;
   bottom: auto;
-  left: 46%;
+  left: 43%;
   right: 50%;
   border-radius: 150px;
+  }
+    #namestar {
+    font-size: 6em;
   }
 }
 
@@ -290,7 +297,7 @@ Main components
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 720px) {
   .cd-scrolling-bg {
     padding: 8em 0;
     font-size: 20px;
@@ -302,6 +309,7 @@ Main components
     font-size: 3em;
     text-align: center;
   }
+
 }
 
 
@@ -358,4 +366,29 @@ Main components
 
 #webtitle {
   font-size: 2em;
+}
+
+@media only screen and (max-width: 375px) {
+  #beaconbar {
+    position: relative;
+    width: 70%;
+    left: 15%;
+  }
+
+  .iconbar img {
+    width: 13%
+  }
+
+  #beaconapp {
+    position: relative;
+    left: 12%;
+  }
+
+  .headshot {
+    width: 35%;
+  }
+
+  #namestar {
+    font-size: 2.67rem;
+  }
 }

@@ -310,3 +310,20 @@ Main components
 .icons:hover img {
       -webkit-transform:rotate(20deg);
 }
+
+.iconbar {
+  padding-left: 13%;
+}
+
+#beaconbar {
+  position: absolute;
+  right: 16%;
+  width: 30%;
+  top: 24%;
+  text-align: center;
+  color: white;
+}
+
+#beaconbar h1 {
+  font-size: 3em;
+}

@@ -1,48 +1,79 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="index.css">
-    <title>Andrew Vaughan</title>
-  </head>
-  <body>
-    <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="blogindex.html">Blog</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="helpful.html">Helpful Links</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="jumbotron">
-      <div class="container">
-        <h1>ANDREW VAUGHAN</h1>
-        <p>Dream. Think. Create.</p>
-      </div>
-    </div>
-    <div class="learn-more">
-      <div class="container">
-        <div class ="row">
-          <div class="col-md-3">
-            <a href="mailto:asdvaughan@gmail.com"><img src="imgs/mail22.png"></a>
-          </div>
-          <div class="col-md-3">
-          <a href="https://twitter.com/asdvaughan"><img src="imgs/twitter12.png"></a>
-          </div>
-          <div class="col-md-3">
-          <a href="https://www.linkedin.com/pub/andrew-vaughan-cmca/45/7a8/16b"><img src="imgs/linked2.png"></a>
-          </div>
-          <div class="col-md-3">
-          <a href="https://github.com/avaughan89"><img src="imgs/github7.png"></a>
-          </div>
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+  <script src="js/modernizr.js"></script>
+   <!-- Modernizr -->
+
+  <title>Andrew Vaughan</title>
+</head>
+<body>
+
+  <main class="cd-main-content">
+    <div class="cd-fixed-bg cd-bg-1">
+      <h1>Andrew Vaughan</h1>
+      <img draggable='true' class='headshot' src="imgs/heads.png">
+
+    </div> <!-- cd-fixed-bg -->
+
+    <div class="cd-scrolling-bg cd-color-2">
+      <div class="cd-container">
+        <h2>
+          My passion is to create.</h2>
+          <h2>  My purpose is to inspire.</h2>
+
+      </div> <!-- cd-container -->
+    </div> <!-- cd-scrolling-bg -->
+
+    <div class="cd-fixed-bg cd-bg-2">
+      <h2>Technologies:</h2>
+    </div> <!-- cd-fixed-bg -->
+
+    <div class="cd-scrolling-bg cd-color-3">
+      <div class="cd-container" id='designs'>
+        <p>
+          <h1 id='webtitle'>Web Design</h1>
+          <ul>
+            <li>Ruby<img src=""></li>
+            <li>Ruby on Rails</li>
+            <li>Javascript</li>
+            <li>AngularJS</li>
+            <li>HTML5</li>
+            <li>CSS3/SASS</li>
+
+          </ul>
+        </p>
+      </div> <!-- cd-container -->
+    </div> <!-- cd-scrolling-bg -->
+
+    <div class="cd-fixed-bg cd-bg-3">
+      <h2 id='project'>Projects: </h2>
+    </div> <!-- cd-fixed-bg -->
+
+    <div class="cd-scrolling-bg cd-color-1">
+      <div class="cd-container">
+
+          <a href="https://github.com/avaughan89/beacon"><img src="imgs/beaconapp.gif"></a>
+
+        <div id='beaconbar'>
+        <h1>Beacon</h1>
+        <h4>Delivering a visual environment to create and attend events to meet new people.</h4>
         </div>
-      </div>
-    </div>
-  </body>
+      </div> <!-- cd-container -->
+    </div> <!-- cd-scrolling-bg -->
+
+    <div class="cd-fixed-bg cd-bg-4">
+
+      <h2 class='iconbar'><a class='icons' href="mailto:asdvaughan@gmail.com"><img src="imgs/email-14-64.png"></a><a class='icons' href="https://www.linkedin.com/pub/andrew-vaughan-cmca/45/7a8/16b"><img src="imgs/linkedin-3-64.png"></a><a class='icons' href="https://github.com/avaughan89"><img src="imgs/github-11-64.png"></a><a class='icons' href="https://twitter.com/asdvaughan"><img src="imgs/twitter-64.png"></a></h2>
+    </div> <!-- cd-fixed-bg -->
+  </main> <!-- cd-main-content -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
 </html>

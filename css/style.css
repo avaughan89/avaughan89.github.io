@@ -60,7 +60,7 @@ Main components
   position: absolute;
   top: 60%;
   bottom: auto;
-  left: 33%;
+  left: 39%;
   right: 50%;
   border-radius: 150px;
   }
@@ -269,7 +269,7 @@ Main components
   color: #a6989a;
 }
 .cd-scrolling-bg.cd-color-2 {
-  background-color: #99a478;
+  background-color: #92938F;
   color: #3d3536;
 }
 .cd-scrolling-bg.cd-color-3 {
@@ -326,4 +326,16 @@ Main components
 
 #beaconbar h1 {
   font-size: 3em;
+}
+
+#project {
+  color: black;
+}
+
+#designs {
+  text-align: center;
+}
+
+#webtitle {
+  font-size: 2em;
 }

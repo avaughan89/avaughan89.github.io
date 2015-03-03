@@ -276,6 +276,20 @@ Main components
   background-color: #b4d7a8;
   color: #3d3536;
 }
+@media only screen and (min-width: 300px) {
+  .cd-scrolling-bg {
+    padding: 8em 0;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+  }
+  .cd-scrolling-bg h2 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .cd-scrolling-bg {
     padding: 8em 0;
@@ -284,7 +298,13 @@ Main components
     line-height: 2;
     font-weight: 300;
   }
+  .cd-scrolling-bg h2 {
+    font-size: 3em;
+    text-align: center;
+  }
 }
+
+
 
 .icons {
   padding-right: 12%;

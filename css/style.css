@@ -368,7 +368,7 @@ Main components
   font-size: 2em;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) and (device-aspect-ratio: 9/16) {
   #beaconbar {
     position: relative;
     width: 70%;
@@ -389,6 +389,6 @@ Main components
   }
 
   #namestar {
-    font-size: 2.0em;
+    font-size: 2.3em;
   }
 }

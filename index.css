@@ -156,9 +156,9 @@ p {
 
 h1 {
   max-width: 780px;
-  margin-bottom: 0.95rem;
+  margin-bottom: 1.35rem;
   font-size: clamp(4rem, 10.5vw, 7.6rem);
-  line-height: 0.88;
+  line-height: 0.94;
   letter-spacing: 0;
 }
 
@@ -523,6 +523,7 @@ h3 {
   }
 
   h1 {
+    margin-bottom: 1rem;
     font-size: clamp(3.25rem, 18vw, 4.7rem);
   }
 
